@@ -1,6 +1,11 @@
 from vpython import *
 import random
 
+# Pengaturan canvas untuk fullscreen
+scene.width = 1500  # Lebar layar (sesuaikan dengan resolusi layar)
+scene.height = 725  # Tinggi layar
+scene.fullscreen = True  # Aktifkan mode fullscreen
+
 # Buat Matahari
 sun = sphere(pos=vector(0, 0, 0), radius=2, color=color.yellow)
 
